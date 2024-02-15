@@ -1,0 +1,36 @@
+header{
+  border-bottom: 1px solid grey;
+}
+
+.about p {
+  text-align: justify;
+}
+.about p:last-child {
+  display: block;
+}
+.card {
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 10px grey;
+}
+
+td:last-child {
+  text-align: center;
+  background-color: red;
+}
+td:last-child a {
+  text-decoration: none;
+
+  color: white;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 1200px) {
+  .about p:last-child {
+    display: none;
+  }
+}
